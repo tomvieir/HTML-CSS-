@@ -1144,7 +1144,7 @@ footer .button:hover {
 
 /* responsive */
 
-@media (min-width: 450px) and (max-width:1111px) {
+@media (min-width: 603px) and (max-width:1111px) {
 
     /* menu */
     .logo {
@@ -1506,9 +1506,7 @@ footer .button:hover {
     section.default.light.premium {
         padding: 0px;
     }
-    .section-premium .sliders-pointers {
-        margin-left: -27px;
-    }
+    
 
     /* premium */
     .section-premium--right {
