@@ -1169,20 +1169,28 @@ footer .button:hover {
     }
 
     .menu li a {
-        font-weight: 600;
-        height:30px;
-        font-size: 27px;
+        font-weight: 400;
+        height:10px;
+        font-size: 25px;
         margin-right: 300px;
         margin-bottom: 150px;
         align-items:center;
         border:0;
+        padding-top: 0;
+        padding-bottom: 0;
    
+    }
+    .menu li {
+        margin-bottom: 17px;
     }
     
     .fancy {
         float:none;
+        
     }
     
+    
+
     .menu-opener {
         display: flex;
         position: relative;
@@ -1196,7 +1204,7 @@ footer .button:hover {
     .menu {
         width:100px;
         position: relative;
-        left:600px
+        left:600px;
     }
 
 
@@ -1245,7 +1253,9 @@ footer .button:hover {
         border-right: 0;
     }
 
-
+    .section-service:nth-of-type(2) {
+        border-right: 0;
+    }
 
 
 
@@ -1262,6 +1272,7 @@ footer .button:hover {
 
     .section-price--item {
         padding: 18px;
+        
         margin-bottom: 40px;
         margin-left: 190px;
         width:50vw;
@@ -1271,6 +1282,8 @@ footer .button:hover {
 
     .section-price {
         display:block;
+        
+        
 
     }
  
@@ -1299,15 +1312,22 @@ footer .button:hover {
         flex-direction:column;
     }
 
+
     .menu li a {
-        font-weight: 600;
-        height:30px;
-        font-size: 27px;
+        font-weight: 200;
+        height:10px;
+        font-size: 25px;
         margin-right: 300px;
         margin-bottom: 150px;
         align-items:center;
         border:0;
+        padding-top: 0;
+        padding-bottom: 0;
    
+    }
+    .menu li {
+        margin-bottom: 17px;
+        border-bottom: 1px solid rgba(204, 204, 204, 0.068);
     }
     
     .fancy {
@@ -1505,6 +1525,7 @@ footer .button:hover {
     .footer--item.area2 {
         text-align: center;
         margin-bottom: 15px;
+        
     }
 
 
