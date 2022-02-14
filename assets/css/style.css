@@ -1461,14 +1461,7 @@ footer .button:hover {
 
     /* price */
 
-    .section-price--item {
-        padding: 18px;
-        margin-bottom: 40px;
-        margin-left: 60px;
-        width:50vw;
-        
-        
-    }
+    
 
     /* client */
     .section-client--content p {
@@ -1504,6 +1497,10 @@ footer .button:hover {
 
     .section-price--item {
         margin-left: 0;
+    }
+
+    .section-price--item:last-child {
+        margin-right: 19px;
     }
 
     section.default.light.premium {
